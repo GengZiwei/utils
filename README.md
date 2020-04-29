@@ -2,7 +2,7 @@
 
 ## axios
 
-### axios的请求
+axios的请求
 
 ```javascript
 import http "@/axios/index"
@@ -17,7 +17,7 @@ http.request({
 
 ```
 
-### axios清空请求
+axios清空请求
 
 ```javascript
 
@@ -27,7 +27,7 @@ http.clearPending()
 
 ```
 
-### 时间格式化
+## 时间格式化
 
 ```javascript
 
@@ -37,7 +37,7 @@ Format(Date.now()., 'yyyy/MM/dd hh:mm:ss') // 2020/04/29 16:50:00
 
 ```
 
-### 本地存储
+## 本地存储
 
 ```javascript
 
