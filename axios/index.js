@@ -1,7 +1,5 @@
 import HttpRequest from './axios'
 
-const api = 'http://localhost:9999/api/'
+const api = process.env.BASE_URL
 
-const request = new HttpRequest(api).request
-
-export default request
+export default new HttpRequest(api)
